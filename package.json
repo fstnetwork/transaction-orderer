@@ -1,0 +1,32 @@
+{
+  "name": "transaction-orderer",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write ./**/*.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fstnetwork/transaction-orderer.git"
+  },
+  "author": "FST NETWORK PTE. LTD.",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/fstnetwork/transaction-orderer/issues"
+  },
+  "homepage": "https://github.com/fstnetwork/transaction-orderer#readme",
+  "devDependencies": {
+    "@types/bull": "^3.10.6",
+    "esm": "^3.2.25",
+    "prettier": "^1.19.1"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "bull": "^3.12.1",
+    "bull-board": "^0.6.0",
+    "ethers": "^4.0.40",
+    "ioredis": "^4.14.1"
+  }
+}
